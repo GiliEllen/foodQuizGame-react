@@ -1,0 +1,62 @@
+.dashboard {
+    height: 100%;
+    background: rgb(239, 45, 86);
+    background: radial-gradient(circle, rgba(239, 45, 86, 1) 0%, rgba(241, 169, 184, 1) 100%);
+
+    &__gameInfo {
+        margin: 0%;
+        text-align: center;
+        h1, h2 {
+            margin: 0;
+            padding: 0%;
+        }
+
+
+    }
+
+    .facts_container {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .fact {
+    
+            width: 50vw;
+            height: fit-content;
+            padding: 20px;
+            border-radius: 40px;
+            margin-bottom: 30px;
+            transition: all .35s ease-in-out;
+        
+            img {
+                width: 80%;
+            } 
+    
+            .BTN_container {
+                width: 50%;
+                display: flex;
+                justify-content: space-between;
+                margin: auto;
+    
+                button {
+                    margin-top:20px;
+                    border: none;
+                    padding: 20px 40px;
+                    border-radius: 40px;
+                    background-color: rgb(218, 39, 108);
+                    font-size: 1.5rem;
+                    color: white;
+    
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+    
+    
+}
+

@@ -1,0 +1,108 @@
+@import "./featuers/fact/fact.scss";
+
+html {
+    padding: 0%;
+    margin: 0%;
+}
+
+.session {
+    background: rgb(239, 45, 86);
+    background: radial-gradient(circle, rgba(239, 45, 86, 1) 0%, rgba(241, 169, 184, 1) 100%);
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    font-family: 'Aboreto', cursive;
+    position: relative;
+
+
+
+    &__headers {
+        margin: 0%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgb(237, 182, 193);
+        padding: 40px;
+        border-radius: 40px;
+        text-align: center;
+        height: 30%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+        .btn_submit {
+            background-color: rgb(176, 68, 102);
+            padding: 20px;
+            color: white;
+            border: none;
+            border-radius: 40px; 
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+
+            &:hover {
+                color: gray;
+            }
+        }
+
+        h1 {
+            margin: 0%;
+        }
+
+        &__Form {
+            height: 100%;
+            .input_wrapper {
+                height: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                .inputContainer{
+
+                    input {
+                        background-color: rgb(120, 26, 56);
+                        padding: 20px;
+                        color: white;
+                        border: none;
+                        border-radius: 40px;
+                        &::placeholder {
+                            color: white;
+                        }
+                    }
+                }
+            }
+            .btn_submit {
+                background-color: rgb(176, 68, 102);
+                padding: 20px;
+                color: white;
+                border: none;
+                border-radius: 40px; 
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+
+    }
+
+    &__gameInfo {
+        margin: 0%;
+        text-align: center;
+        h1, h2 {
+            margin: 0;
+            padding: 0%;
+        }
+
+
+    }
+
+
+
+}
+
